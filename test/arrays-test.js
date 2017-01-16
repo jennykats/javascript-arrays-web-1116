@@ -16,19 +16,19 @@ describe('arrays', () => {
     })
   })
 
-  describe('addElementToBeginningOfArray(array, element)', () => {
-    it('adds an `element` to the beginning of an `array`', () => {
-      expect(addElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1])
-    })
-
-    it('does not alter `array`', () => {
-      const array = [1]
-
-      addElementToBeginningOfArray(array, 'foo')
-
-      expect(array).to.eql(array)
-    })
-  })
+  // describe('addElementToBeginningOfArray(array, element)', () => {
+  //   it('adds an `element` to the beginning of an `array`', () => {
+  //     expect(addElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1])
+  //   })
+  //
+  //   it('does not alter `array`', () => {
+  //     const array = [1]
+  //
+  //     addElementToBeginningOfArray(array, 'foo')
+  //
+  //     expect(array).to.eql(array)
+  //   })
+  // })
 
   describe('destructivelyAddElementToBeginningOfArray(array, element)', () => {
     it('adds an `element` to the beginning of an `array`', () => {
@@ -44,19 +44,19 @@ describe('arrays', () => {
     })
   })
 
-  describe('addElementToEndOfArray(array, element)', () => {
-    it('adds an `element` to the end of an `array`', () => {
-      expect(addElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
-    })
-
-    it('does not alter `array`', () => {
-      const array = [1]
-
-      addElementToEndOfArray(array, 'foo')
-
-      expect(array).to.eql(array)
-    })
-  })
+  // describe('addElementToEndOfArray(array, element)', () => {
+  //   it('adds an `element` to the end of an `array`', () => {
+  //     expect(addElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
+  //   })
+  //
+  //   it('does not alter `array`', () => {
+  //     const array = [1]
+  //
+  //     addElementToEndOfArray(array, 'foo')
+  //
+  //     expect(array).to.eql(array)
+  //   })
+  // })
 
   describe('destructivelyAddElementToEndOfArray(array, element)', () => {
     it('adds an `element` to the end of an `array`', () => {
